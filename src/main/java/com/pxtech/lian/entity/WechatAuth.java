@@ -29,18 +29,22 @@ public class WechatAuth {
     //SET方法构造
 
     public void setWechatAuthId(Long wechatAuthId) {
+
         this.wechatAuthId = wechatAuthId;
     }
 
     public void setOpenId(String openId) {
+
         this.openId = openId;
     }
 
     public void setCreatTime(Date creatTime) {
+
         this.creatTime = creatTime;
     }
 
     public void setPersonInfo(PersonInfo personInfo) {
+
         this.personInfo = personInfo;
     }
 }

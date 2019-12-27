@@ -17,68 +17,84 @@ public class HeadLine {
     //GET方法构造
 
     public Long getLineId() {
+
         return lineId;
     }
 
     public String getLineName() {
+
         return lineName;
     }
 
     public String getLinLink() {
+
         return linLink;
     }
 
     public String getLineImg() {
+
         return lineImg;
     }
 
     public Integer getPriority() {
+
         return priority;
     }
 
     public Integer getEnableStatus() {
+
         return enableStatus;
     }
 
     public Date getCreateTime() {
+
         return createTime;
     }
 
     public Date getLastEditTime() {
+
         return lastEditTime;
     }
 
     //SET方法构造
 
     public void setLineId(Long lineId) {
+
         this.lineId = lineId;
     }
 
     public void setLineName(String lineName) {
+
         this.lineName = lineName;
     }
 
     public void setLinLink(String linLink) {
+
         this.linLink = linLink;
     }
 
     public void setLineImg(String lineImg) {
+
         this.lineImg = lineImg;
     }
 
     public void setPriority(Integer priority) {
+
         this.priority = priority;
     }
 
     public void setEnableStatus(Integer enableStatus) {
+
         this.enableStatus = enableStatus;
     }
 
     public void setCreateTime(Date createTime) {
+
         this.createTime = createTime;
     }
 
     public void setLastEditTime(Date lastEditTime) {
+
         this.lastEditTime = lastEditTime;
     }
 }
