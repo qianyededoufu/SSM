@@ -8,7 +8,7 @@ public class ProductImg {
     private Integer priroity;
     private Date createTime;
     private Long productId;
-    
+
     //GET
 
     public Long getProductImgId() {
